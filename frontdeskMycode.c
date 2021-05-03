@@ -98,7 +98,10 @@ int check_vacancies()
 
 		memset(namebuf, 0, NAME_LEN_MAX);
 	}
-	if(result == -1)	result = 0;
+	if(result == -1){
+		result = 0;
+		printf("there are no available rooms\n");
+	}
 	else{
 		printf("the number of empty room is %d\n",j);
 	}
