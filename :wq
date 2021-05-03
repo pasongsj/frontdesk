@@ -7,4 +7,4 @@
 * There is no room that the guest wants.
 * There is room that the guest wants, so change the file.
 * Make the room that corresopnds to the guest name vacant.
-* If the guest name don't match, print it out.
+* If the guest name don't match, print it out 
